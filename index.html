@@ -23,7 +23,7 @@
     p {
       font-size: 1.2em;
     }
-    .music {
+    .music, .profile {
       margin-top: 3em;
     }
     iframe {
@@ -32,11 +32,25 @@
       height: 400px;
       border: none;
     }
+    .profile img {
+      width: 200px;
+      border-radius: 50%;
+      margin-bottom: 1em;
+    }
+    .profile p {
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
     footer {
       margin-top: 4em;
       padding: 2em;
       font-size: 0.9em;
       background-color: #222;
+    }
+    a {
+      color: #ffaf7b;
+      text-decoration: none;
     }
   </style>
 </head>
@@ -48,13 +62,23 @@
 
   <section class="music">
     <h2>最新リリース</h2>
-    <!-- Embed SoundCloud, Bandcamp, or YouTube -->
     <iframe src="https://www.youtube.com/embed/Zuvla6IIhQo" allowfullscreen></iframe>
+  </section>
+
+  <section class="profile">
+    <h2>プロフィール</h2>
+    <img src="https://tcj-image-production.s3-ap-northeast-1.amazonaws.com/u417759/a893258/itc317147.png" alt="hunclutchのプロフィール画像">
+    <p>
+      音楽をしてます。ダークポップスが好き。<br>
+      僕の音楽があなたの心に響いたら登録してださい → 
+      <a href="https://youtube.com/@hunclutch" target="_blank">YouTubeチャンネル</a><br>
+      お仕事 : <a href="mailto:hunclutch0411@gmail.com">hunclutch0411@gmail.com</a>
+    </p>
   </section>
 
   <footer>
     <p>© 2025 hunclutch</p>
-    <p><a href="mailto:huclutch0411@gmail.com" style="color:#aaa;">お問い合わせ</a></p>
+    <p><a href="mailto:huclutch0411@gmail.com">お問い合わせ</a></p>
   </footer>
 </body>
 </html>
